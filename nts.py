@@ -73,6 +73,7 @@ hosts = {
     'Molinaro': 'moli_naro',
     'Nosedrip': 'Nosedrip',
     'Psychedelic Ensemble': 'ensemblepsych',
+    'Ross Allen': 'rossallenmusic',
     'Radio Alhara': 'Radio_alHara',
     'Rhythm Section': 'rhythmsectionhq',
     'Ribeka': 'r_ibeka',
