@@ -38,6 +38,7 @@ hosts = {
     'House Call': 'HouseCallNts',
     'Huerco S[\.]*': 'huerco_s',
     'Jon Hopkins': 'Jon_Hopkins_',
+    'Jon K': 'thejon_k',
     'JK': 'ScarythingsJK',
     'Kuunatic': 'kuunatic',
     'London Contemporary Orchestra': 'LCOrchestra',
