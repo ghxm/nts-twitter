@@ -41,6 +41,7 @@ hosts = {
     'Hesska': 'HesskaCITS',
     'House Call': 'HouseCallNts',
     'Huerco S[\.]*': 'huerco_s',
+    'Jake Muir': '_jakemuir',
     'Jon Hopkins': 'Jon_Hopkins_',
     'Jon K': 'thejon_k',
     'JK': 'ScarythingsJK',
