@@ -27,6 +27,7 @@ hosts = {
     'DJ Bempah': 'DJ_Bempah',
     'DJ Nobu': 'dj_nobu_ft',
     'DJ Sundae': 'djsundae',
+    'DJ Taye': 'DJTAYE',
     'Eartheater': 'younggummystone',
     'Emotional Landscapes': 'maya_kal_',
     'Ernesto Chahoud': 'ernestchahoud',
