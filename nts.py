@@ -28,6 +28,8 @@ hosts = {
     'DJ Nobu': 'dj_nobu_ft',
     'DJ Sundae': 'djsundae',
     'DJ Taye': 'DJTAYE',
+    'DJ Rashad': 'DJRASHAD',
+    'DJ Spinn': 'DJ_Spinn',
     'Eartheater': 'younggummystone',
     'Emotional Landscapes': 'maya_kal_',
     'Ernesto Chahoud': 'ernestchahoud',
