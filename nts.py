@@ -9,6 +9,7 @@ hosts = {
     'Andy Votel(?:.s){0,1}[s]*': 'AndyVotel',
     'Anz': 'yunganz_',
     'Aya': 'aya_yco',
+    'Bae Bae': 'baexploitation',
     'Barnaby Bennett': 'BarnabyBennett',
     'Bergsonist': 'bergsonist',
     'Bladee': 'BladeeCity',
