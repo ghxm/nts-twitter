@@ -14,6 +14,7 @@ hosts = {
     'Bradley Zero': 'bradleyzero',
     'Chantal Adams|Chantal': 'ChantalAdams',
     'Charlie Bones': 'D0YoU',
+    'Coby Sey': 'cobysey',
     'Dave ID': 'DaveIDmusic',
     'Delivery': 'DeliveryLA',
     'Death is not the End': 'deathisnot',
