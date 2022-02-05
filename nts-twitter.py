@@ -21,10 +21,13 @@ def main():
     parser.add_argument("-n", "--numshows", help="Number of shows to check", default=25,
                     type=int)
     parser.add_argument("-t", "--text", help="Tweet text. Use {tw_name} and {url} to include upload name and url",
-                        default = "{tw_name} ({date}, {location}) was uploaded to nts.live. Give it a listen for some {genres}. {url}",
+                        default = "{tw_name} ({date}, {location}) was uploaded to nts.live. Give it a listen for some {genres}.\n{url}",
                     type=str)
     parser.add_argument("-d", "--dry", help="Dry run (don't tweet)", action="store_true", default=False)
     args = parser.parse_args()
+
+    args.text = args.text.replace('\\n', '\n')
+
 
     offset = 0
 
@@ -98,7 +101,7 @@ def main():
                 e_posted = 0
 
             if not args.dry:
-                cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?)',
+                cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?) ON CONFLICT(slug) DO UPDATE SET posted=excluded.posted, genres=excluded.genres',
                         (u['name'], u['slug'], u['location'], u['date'], str(u['genres']), e_posted))
 
             n_shows = n_shows + 1
