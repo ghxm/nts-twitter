@@ -20,6 +20,7 @@ hosts = {
     'Bradley Zero': 'bradleyzero',
     'Chantal Adams|Chantal': 'ChantalAdams',
     'Charlie Bones': 'D0YoU',
+    'Coby Sey': 'cobysey',
     'Children of Zeus': 'ChildrenOfZeus',
     'Circuits': 'circuits_nts',
     'Corin': 'CORIN_music',
