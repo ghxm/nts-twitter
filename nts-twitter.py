@@ -34,7 +34,8 @@ def main():
     n_shows = 0
 
     client = tweepy.Client(bearer_token=twitter_auth.bearer_token, consumer_key=twitter_auth.consumer_key, consumer_secret=twitter_auth.consumer_secret,
-                        access_token=twitter_auth.access_token, access_token_secret=twitter_auth.access_token_secret, wait_on_rate_limit=True)
+                        access_token=twitter_auth.access_token, access_token_secret=twitter_auth.access_token_secret, wait_on_rate_limit=True
+                           )
 
     con = sqlite3.connect('nts.sqlite3', isolation_level=None)
     cur = con.cursor()
